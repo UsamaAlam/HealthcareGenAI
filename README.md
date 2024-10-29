@@ -26,7 +26,7 @@ This workshop showcases how Amazon Bedrock agents can be integrated with a data 
 Through this hands-on experience, participants will:
 - Understand how to create and configure Amazon Bedrock agents for persona-based interactions.
 - Build an end-to-end AI-driven medical assistant using synthetic health data.
-- Utilize a data lake architecture to store, manage, and query synthetic FHIR records and VCF files.
+- Utilize a datalake architecture to store, manage, and query synthetic FHIR records and VCF files.
 
 ---
 
@@ -49,7 +49,7 @@ This workshop uses synthetic datasets to simulate real-world health data:
 ## Workshop Steps
 
 1. **Set Up the Environment**: Instructions on setting up the necessary AWS resources and configurations.
-2. **Data Lake Creation and Population**: Guide to creating a data lake and loading synthetic FHIR and VCF data.
+2. **Create synthetic medical records**: Guide to creating a data lake and loading synthetic FHIR and VCF data.
 3. **Configuring Amazon Bedrock Agent**: Instructions on configuring the Bedrock agent for personalized responses based on persona.
 4. **Implementing Persona Logic**: Steps to apply conditional logic in the Bedrock agent for tailored responses.
 5. **Testing and Evaluation**: Validating the agent’s response with both personas to ensure accuracy and relevance.
@@ -61,8 +61,8 @@ This workshop uses synthetic datasets to simulate real-world health data:
 Explore these extra exercises to deepen your understanding and enhance the solution further:
 
 - **[Exercise 1: Introduction to custom agents](introduction-to-agents/README.md)**: Learn when and how to custom agentsa.
-- **[Exercise 2: Prompt and session attributes](#)**: Experiment with adding new features to the Bedrock agent, such as additional personas.
-- **[Exercise 3: Advanced propomts and custom parsers](#)**: Use machine learning tools to derive insights from the VCF data.
+- **[Exercise 2: Prompt and session attributes](prompt-and-session-attributes/README.md)**: For greater control of session context, you can modify the SessionState object in your agent.
+- **[Exercise 3: Advanced propomts and custom parsers](advanced-prompts-and-custom-parsers/README.md)**: Advanced propomts and custom parsers.
 
 ---
 

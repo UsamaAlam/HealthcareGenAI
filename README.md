@@ -47,6 +47,7 @@ This workshop uses synthetic datasets to simulate real-world health data:
 ---
 
 ## Workshop Steps
+You can start the main workshop running **[health vare agent with function definition](healthcare-agent-with-function-definition .ipynb)**
 
 1. **Set Up the Environment**: Instructions on setting up the necessary AWS resources and configurations.
 2. **Create synthetic medical records**: Guide to creating a data lake and loading synthetic FHIR and VCF data.
